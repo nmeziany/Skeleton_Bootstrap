@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --text-color: #344563;
+  --black-color: #091e42;
+  --purple-color: #6070ff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 10000px;
+}
+
+/* Start Navbar */
+
+.navbar .navbar-brand {
+  color: var(--purple-color);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--text-color);
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--purple-color);
+}
+
+.navbar .navbar-toggler {
+  color: var(--purple-color);
+  font-size: 25px;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/* End Navbar */
+
+/* Start landing */
+.landing {
+  background-image: url(/images/landing-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: calc(100vh - 72px);
+}
+
+.landing .text-start h1 {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.landing .text-start p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.landing .text-start h4 {
+  color: var(--purple-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.landing .list-group li {
+  list-style-type: none;
+}
+
+.landing .list-group a {
+  color: var(--text-color);
+}
+
+.landing .list-group a:focus,
+.landing .list-group a:hover {
+  color: var(--purple-color);
+}
+/* End landing */
